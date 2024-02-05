@@ -30,7 +30,7 @@ section {
 }
 
 .main .content h2 {
-  color: rgb(20, 18, 20);
+  color: rgb(207, 143, 193);
   font-size: 2em;
   font-weight: 500;
 }
@@ -108,7 +108,7 @@ section {
 header {
   z-index: 999;
   position: fixed;
-  background: rgba(235, 224, 236, 0.923);
+  background: rgba(255, 255, 255, 0.1);
   top: 0;
   left: 0;
   width: 100%;
@@ -713,7 +713,7 @@ footer {
   font-size: 14px;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   padding: 7px 8px;
   background-color: inherit;
   font-family: inherit;
@@ -725,13 +725,13 @@ footer {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(225, 217, 225);
+  background-color: rgb(86, 45, 85);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #e5d5d5;
+  background-color: #141111;
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -739,7 +739,7 @@ footer {
 
 .dropdown-content a {
   float: none;
-  color: rgb(217, 200, 224);
+  color: rgb(68, 17, 88);
   padding: 7px 9px;
   text-decoration: none;
   display: block;
@@ -747,7 +747,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: #e2c6e9;
+  background-color: #ae8ab8;
 }
 
 .dropdown:hover .dropdown-content {
