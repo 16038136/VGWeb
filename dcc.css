@@ -725,13 +725,13 @@ footer {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(86, 45, 85);
+  background-color: rgb(225, 217, 225);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #141111;
+  background-color: #e5d5d5;
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -739,7 +739,7 @@ footer {
 
 .dropdown-content a {
   float: none;
-  color: rgb(68, 17, 88);
+  color: rgb(217, 200, 224);
   padding: 7px 9px;
   text-decoration: none;
   display: block;
@@ -747,7 +747,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: #ae8ab8;
+  background-color: #e2c6e9;
 }
 
 .dropdown:hover .dropdown-content {
