@@ -30,7 +30,7 @@ section {
 }
 
 .main .content h2 {
-  color: rgb(207, 143, 193);
+  color:   rgb(20, 18, 20);;
   font-size: 2em;
   font-weight: 500;
 }
@@ -108,7 +108,7 @@ section {
 header {
   z-index: 999;
   position: fixed;
-  background: rgba(255, 255, 255, 0.1);
+  background:  rgba(243, 241, 243, 0.923);;
   top: 0;
   left: 0;
   width: 100%;
