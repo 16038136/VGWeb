@@ -745,7 +745,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: #eee6f0;
+  background-color: black;
 }
 
 .dropdown:hover .dropdown-content {
