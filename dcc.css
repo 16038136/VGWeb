@@ -737,7 +737,7 @@ footer {
 
 .dropdown-content a {
   float: none;
-  color: rgb(234, 216, 241);
+  color: black;
   padding: 7px 9px;
   text-decoration: none;
   display: block;
