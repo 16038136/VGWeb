@@ -702,9 +702,7 @@ footer {
   border-top: 1px solid var(--primary-color);
 }
 
-/* dropdown */
-
-.dropdown {
+/* dropdown */.dropdown {
   float: left;
   overflow: hidden;
 }
@@ -713,7 +711,7 @@ footer {
   font-size: 14px;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 7px 8px;
   background-color: inherit;
   font-family: inherit;
@@ -725,13 +723,13 @@ footer {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(233, 213, 232);
+  background-color: rgb(248, 228, 247);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #e7d8d8;
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -739,7 +737,7 @@ footer {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: rgb(234, 216, 241);
   padding: 7px 9px;
   text-decoration: none;
   display: block;
@@ -747,7 +745,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: white;
+  background-color: #eee6f0;
 }
 
 .dropdown:hover .dropdown-content {
