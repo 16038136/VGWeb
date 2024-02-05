@@ -108,7 +108,7 @@ section {
 header {
   z-index: 999;
   position: fixed;
-  background: rgb(83, 49, 151);
+  background: rgba(255, 255, 255, 0.1);
   top: 0;
   left: 0;
   width: 100%;
@@ -125,7 +125,7 @@ header.sticky {
 }
 
 header .brand {
-  color: white;
+  color: #fff;
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
@@ -137,7 +137,7 @@ header .navigation {
 }
 
 header .navigation a {
-  color: white;
+  color: #fff;
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
@@ -145,7 +145,7 @@ header .navigation a {
 }
 
 header .navigation a:hover {
-  color: rgb(224, 197, 229);
+  color: #79627b;
 }
 
 header.sticky .navigation a:hover {
@@ -552,35 +552,10 @@ body {
   header.sticky {
     padding: 10px 20px;
   }
-  
-  header .brand {
-  color: #fff;
-  font-size: 1.8em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 
   header .navigation {
     display: none;
-     position: relative;
   }
-  header .navigation a {
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 30px;
-}
-
-header .navigation a:hover {
-  color: #79627b;
-}
-
-header.sticky .navigation a:hover {
-  color: #000;
-}
 
   header .navigation.active {
     z-index: 888;
@@ -750,130 +725,8 @@ footer {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(86,45,85);
+  background-color: rgb(86, 45, 85);
 }
-
-  header .navigation a:hover {
-    background: #e13af4;
-    color: rgba(189, 155, 187, 0.832);
-    transition: 0.3s ease;
-  }
-
-  .menu-btn {
-    position: absolute;
-    background: url(images/menu.png) no-repeat;
-    background-size: 30px;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-    right: 0;
-    margin: 0 20px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-
-  .menu-btn.active {
-    z-index: 999;
-    background: url(images/close.png) no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.3s ease;
-    filter: invert(1);
-  }
-
-  section {
-    padding: 80px 20px;
-  }
-
-  .main .content h2 {
-    font-size: 1em;
-  }
-
-  .animated-text h3 {
-    font-size: 2.2em;
-  }
-
-  .section-title {
-    font-size: 1.8em;
-  }
-
-  .about .content {
-    flex-direction: column;
-  }
-
-  .about .content .column {
-    position: relative;
-    width: 100%;
-  }
-
-  .about .content .col-right {
-    margin-top: 40px;
-  }
-
-  .skills .content {
-    flex-direction: column;
-  }
-
-  .skills .content .column {
-    position: relative;
-    width: 100%;
-  }
-
-  .skills .content .col-right {
-    margin-top: 40px;
-  }
-
-  .contact-form {
-    padding: 35px 40px;
-  }
-}
-
-.scrollToTop-btn {
-  z-index: 999;
-  position: fixed;
-  background: #3a6cf4;
-  color: #fff;
-  width: 45px;
-  height: 45px;
-  right: 0;
-  bottom: 10px;
-  font-size: 22px;
-  text-align: center;
-  line-height: 45px;
-  border-radius: 3px;
-  cursor: pointer;
-  pointer-events: none;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.scrollToTop-btn.active {
-  right: 20px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.reveal {
-  position: relative;
-  transform: translateY(50px);
-  opacity: 0;
-  transition: all 1.5s ease;
-}
-
-.reveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-footer {
-  background-color: hsl(285, 18%, 36%);
-  color: var(--secondary-color);
-  text-align: center;
-  font-weight: 700;
-  padding: 40px 0;
-  font-family: Arial, Helvetica, sans-serif;
-  border-top: 1px solid var(--primary-color);
-}
-
 
 .dropdown-content {
   display: none;
@@ -886,7 +739,7 @@ footer {
 
 .dropdown-content a {
   float: none;
-  color: rgb(68, 17, 88);;
+  color: rgb(68, 17, 88);
   padding: 7px 9px;
   text-decoration: none;
   display: block;
@@ -894,7 +747,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  background-color: white;
+  background-color: #ae8ab8;
 }
 
 .dropdown:hover .dropdown-content {
