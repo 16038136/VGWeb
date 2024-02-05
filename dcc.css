@@ -149,7 +149,7 @@ header .navigation a:hover {
 }
 
 header.sticky .navigation a:hover {
-  color: #000;
+  color: white;
 }
 
 body {
