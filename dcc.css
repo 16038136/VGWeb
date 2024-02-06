@@ -257,7 +257,7 @@ body {
 
 .skills .content .col-left {
   position: relative;
-  width: 60%;
+  width: 50%;
   /* justify-content: space-around; */
 }
 
@@ -271,8 +271,8 @@ body {
 }
 
 .skills .content .col-right .bar {
-  margin-bottom: 10px;
-  padding: 5px;
+  margin-bottom: 9px;
+  padding: 7px;
 }
 
 .skills .content .col-right .bar .info {
