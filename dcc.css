@@ -257,17 +257,17 @@ body {
 
 .skills .content .col-left {
   position: relative;
-  width: 50%;
+  width: 40%;
   /* justify-content: space-around; */
 }
 
 .skills .content .col-left .content-title {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .skills .content .col-right {
   position: relative;
-  width: 30%;
+  width: 15%;
 }
 
 .skills .content .col-right .bar {
@@ -283,8 +283,8 @@ body {
 }
 
 .skills .content .col-right .bar .info span {
-  font-size: 19px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .skills .content .col-right .bar .line {
